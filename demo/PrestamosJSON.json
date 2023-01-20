@@ -1,0 +1,95 @@
+{
+	"usuarios": [
+		{
+			"usuariosId" : "U1",
+			"Nombre" : "Gregorio Cañas",
+			"Departamento" : "ventas",
+			"Telefono" : "69876543",
+			"Email" : "Gregory@gmail.com",
+			"Ubicacion" : "Albacete"
+		},
+		{
+			"usuariosId" : "U2",
+			"Nombre" : "Sheila Cordero",
+			"Departamento" : "comercial",
+			"Telefono" : "712345678",
+			"Email" : "sc45@yahoo.com",
+			"Ubicacion" : "Barcelona"
+		}
+	],
+	"Equipo": [
+		{
+			"equipoId" : "E1",
+			"Tipo" : "portatil",
+			"Marca" : "MacBook Pro",
+			"Uso" : "ventas",
+			"SO" : {
+				"NombreSO" : "MacOS BigSur",
+				"VersionSO" : "11.2.3"
+			},
+			"HW" : {
+				"Procesador" : "Intel Core i7",
+				"CantMemoria" : {
+					"AtribVel" : "90"
+				},
+				"DiscoDuro" : {
+					"TipoDD" : "AMD",
+					"Capacidad" : "250MB"
+				},
+				"Pantalla" : {
+					"Diagonal" : "13",
+					"Resolucion" : "4K Ultra HD"
+				}
+			},
+			"SW" : {
+				"LicLibre" : {
+					"NombreSW" : "MacOS BigSur"
+				}
+			}
+		},
+		{
+			"equipoId" : "E2",
+			"Tipo" : "portatil",
+			"Marca" : "HP",
+			"Uso" : "comercial",
+			"SO" : {
+				"NombreSO" : "Windows 11",
+				"VersionSO" : "1.5"
+			},
+			"HW" : {
+				"Procesador" : "AMD",
+				"DiscoDuro" : {
+					"TipoDD" : "AMD",
+					"Capacidad" : "1tb"
+				}
+			},
+			"SW" : {
+				"LicPago" : {
+					"NombreSW" : "Windows",
+					"VersionLic" : "14.5",
+					"TipoLic" : "OEM"
+				}
+			}
+		}
+	],
+	"prestamos": [
+		{
+			"prestamosId" : "P1",
+			"usuariosId": "U1",
+			"equipoId" : "E1",
+			"FechaInicioPrestamo" : "24-03-2021",
+			"FechaFinPrestamo" : "24-03-2022",
+			"FechaRealDevolucion" : "23-03-2022",
+			"Comentarios" : ""
+		},
+		{
+			"prestamosId" : "P2",
+			"usuariosId": "U2",
+			"equipoId" : "E2",
+			"FechaInicioPrestamo" : "05-01-2020",
+			"FechaFinPrestamo" : "05-03-2020",
+			"FechaRealDevolucion" : "06-03-2020",
+			"Comentarios" : "Entrega tardia"
+		}
+	]
+}
